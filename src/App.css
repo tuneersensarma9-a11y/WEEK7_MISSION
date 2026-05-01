@@ -52,8 +52,8 @@ body {
 /* Inputs */
 .form-input {
   width: 100%;
-  background-color: grey;   /* 👈 makes it white */
-  border: 1px solid #dadce0;   /* 👈 full border instead of just bottom */
+  background-color: grey;   
+  border: 1px solid #dadce0;   
   border-radius: 4px;
   padding: 10px;
   margin-top: 8px;
