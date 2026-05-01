@@ -1,7 +1,11 @@
 function Success() {
   return (
-    <div className="form-card">
-      <h2 className="success">🎉 Success! Form submitted.</h2>
+    <div className="success">
+      <i
+        className="fa fa-check-circle"
+        style={{ fontSize: "40px", color: "#2e7d32", marginBottom: "10px" }}
+      ></i>
+      <p>Success! Form submitted.</p>
     </div>
   );
 }
