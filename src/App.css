@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ede7f6;
+  margin: 0;
+}
+
+/* Main wrapper */
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+/* Header card (top purple bar style) */
+.form-header {
+  background: white;
+  border-top: 8px solid #673ab7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #8f00f5;
+}
+
+.form-header p {
+  font-size: 14px;
+  color: #8f00f5;
+}
+
+/* Each question card */
+.form-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.required {
+  color: red;
+}
+
+/* Inputs */
+.form-input {
+  width: 100%;
+  background-color: grey;   /* 👈 makes it white */
+  border: 1px solid #dadce0;   /* 👈 full border instead of just bottom */
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 8px;
+  outline: none;
+  font-size: 14px;
+    color: #202124;
+}
+
+/* Focus effect */
+.form-input:focus {
+  border: 2px solid #673ab7;
+}
+/* Helper text */
+.helper-text {
+  font-size: 12px;
+  color: #5f6368;
+  margin-top: 5px;
+}
+
+/* Buttons */
+.button-group {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #673ab7;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: black;
+}
+.form-input::placeholder {
+  color: #5f6368;
+}
+/* Fix date input icon visibility */
+input[type="date"] {
+  color: #202124;
+  background-color: grey;
+}
+
+/* Ensure icons inherit correct theme */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0); /* keep icon dark */
+  cursor: pointer;
+}
+input[type="password"] {
+  color: #202124;
+  background-color: grey;
+}
+.btn-disabled {
+  background-color: #c5c5c5;
+  cursor: not-allowed;
+}
